@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        body
+        {
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        .main_container
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .image_container
+        {
+            margin-top: 50px;
+        }
+        .login_container h4
+        {         
+            color: #3f444a
+        }
+        .login_container form
+        {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background: white;
+            border-radius: 8px;
+            box-shadow:0px 2px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .login_container input
+        {
+            width: 350px;
+            padding: 10px;
+            margin:10px;        
+            border: 1px solid #ccd0d5;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .login-btn {
+            width: 380px;
+            padding: 10px;
+            background-color: #1877f2;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        
+        .login_container p a
+        {
+            text-decoration: none;
+            color: #207be3;
+            font-size: 15px;
+            font-weight:100;
+        }
+        .login_container a:hover {
+    text-decoration: underline; 
+    color: blue; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="image_container">
+            <img src="https://logos-world.net/wp-content/uploads/2020/05/Facebook-Logo-2019.png" height="100" width="200">
+        </div>
+        <div class="login_container">
+            <form action="">
+               <h4>Login to Facebook</h4>
+                <input type="text" id="email" name="email" placeholder="Email address or phone number" required>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <button type="submit" class="login-btn">Log In</button>
+                <p><a href="">Forgotten account? </a> <a href="">Sign up for Facebook</a></p>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
